@@ -1,7 +1,7 @@
 Descripción del Proyecto
 
 CyberAppses un sistema basado en la web que te permite el seguimiento de la cantidad de compra y precio de venta de los ítems o productos en tu negocio o empresa. En la sección de agregar nuevo producto, se puede vincular a una categoría, imagen, precio, cantidad y cada movimiento queda registrado en el sistema.
-
+Panel de Control del sistema: Donde se encuentra reporte de usuarios, productos, categorías, ventas registradas. Como también tiene consultas sobre los productos mas vendidos y los últimos agregados.
 
 
 
@@ -9,4 +9,4 @@ presentación de cada miembro del equipo
 
 
 Edwin A. Bermudez Ardila: soy de cali, tengo 29 años, soy tecnologo en sistemas y actualmente estoy terminando la ingenieria de sistemas. en este proyecto tengo el rol de desarollador.
-
+Sergio González: soy de Toledo N. de S. tengo 28 años, ingeniero ambiental y en este proyecto tengo el rol de Scrum Master.
