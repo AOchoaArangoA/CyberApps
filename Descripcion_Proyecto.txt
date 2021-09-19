@@ -10,6 +10,6 @@ presentación de cada miembro del equipo
 
 Edwin A. Bermudez Ardila: soy de cali, tengo 29 años, soy tecnologo en sistemas y actualmente estoy terminando la ingenieria de sistemas. en este proyecto tengo el rol de desarollador.
 Sergio González: soy de Toledo N. de S. tengo 28 años, ingeniero ambiental y en este proyecto tengo el rol de Scrum Master. 
-Andres Ochoa Arango: Soy de Medellín, tengo 22 años, actualmente soy estudiante de economía y me interesa la Ciencia de Datos, estoy realizando el rol del Proyect Ownwer.
+Andres Ochoa Arango - Soy de Medellín, tengo 22 años, actualmente soy estudiante de economía y me interesa la Ciencia de Datos, estoy realizando el rol del Proyect Ownwer.
 
 
