@@ -12,4 +12,6 @@ Edwin A. Bermudez Ardila: soy de cali, tengo 29 años, soy tecnologo en sistemas
 Sergio González: soy de Toledo N. de S. tengo 28 años, ingeniero ambiental y en este proyecto tengo el rol de Scrum Master. 
 Andres Ochoa Arango - Soy de Medellín, tengo 22 años, actualmente soy estudiante de economía y me interesa la Ciencia de Datos, estoy realizando el rol del Proyect Ownwer.
 
+Camilo Andres Hernandez Aguirre: Soy de Ambalema Tolima, tengo 33 años soy Ingeniero de Sistemas Especialista en Seguridad de la Informacion, en este proyecto soy el rol de Administrador de BD 
+
 
