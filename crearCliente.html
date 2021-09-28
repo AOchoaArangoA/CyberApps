@@ -141,64 +141,55 @@
                                     <div class="col-lg-7">
                                         <div class="card shadow-lg border-0 rounded-lg mt-5">
                                             <div class="card-header">
-                                                <h3 class="text-center font-weight-light my-4">Factura</h3>
+                                                <h3 class="text-center font-weight-light my-4">Crear Cliente</h3>
                                             </div>
                                             <div class="card-body">
                                                 <form>
                                                     <div class="row mb-3">
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
-                                                                <input class="form-control" id="inputFecha" type="date" placeholder="Ingrese la Fecha" />
-                                                                <label for="inputFecha">Fecha</label>
+                                                                <select class="form-control" required>
+                                                                    <option value="">>>>Selecione Tipo Documento>>></option>
+                                                                    <option value="CC">Cedula Ciudadania</option>
+                                                                    <option value="CE">Cedula Extranjeria</option>
+                                                                    <option value="NIT">NIT</option>
+                                                                </select>
+                                                                <label>Tipo Documento</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-floating">
-                                                                <input class="form-control" id="inputCliente" type="text" placeholder="Ingrese el ID del Cliente" />
-                                                                <label for="inputCliente">ID Cliente</label>
+                                                                <input class="form-control" type="number" required />
+                                                                <label for="inputCliente">Numero Documento</label>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-floating mb-3">
-                                                        <input class="form-control" id="inputProducto" type="text" placeholder="Ingrese el Producto" />
-                                                        <label for="inputProducto">Producto</label>
+                                                        <input class="form-control" type="text" placeholder="Nombre" />
+                                                        <label for="nombreCliente">Nombre Cliente</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3">
+                                                        <input class="form-control" type="text" placeholder="Direccion" />
+                                                        <label for="direccionCliente">Direccion</label>
                                                     </div>
                                                     <div class="row mb-3">
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
-                                                                <input class="form-control" id="inputCantidad" type="number" placeholder="Ingrese la Cantidad de Productos" />
-                                                                <label for="inputCantidad">Cantidad</label>
+                                                                <input class="form-control" id="telefono" type="number" placeholder="Telefono" />
+                                                                <label for="inputTelefono">Telefono</label>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-floating mb-3 mb-md-0">
-                                                                <a class="btn btn-xs btn-warning"><i class="fa fa-plus"></i></a>
-
+                                                                <input class="form-control" id="email" type="email" placeholder="Email" />
+                                                                <label for="inputEmail">Email</label>
                                                             </div>
                                                         </div>
 
-                                                    </div>
 
-
-                                                    <h4 class="mb-3">Tipo de Pago</h4>
-
-                                                    <div class="my-3">
-                                                        <div class="form-check">
-                                                            <input id="tCredito" name="MetodoPago" type="radio" class="form-check-input" checked required>
-                                                            <label class="form-check-label" for="tCredito">Tarjeta de Credito
-                                                                card</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input id="tDebito" name="MetodoPago" type="radio" class="form-check-input" required>
-                                                            <label class="form-check-label" for="tDebito">Tarjeta Debito</label>
-                                                        </div>
-                                                        <div class="form-check">
-                                                            <input id="efectivo" name="MetodoPago" type="radio" class="form-check-input" required>
-                                                            <label class="form-check-label" for="efectivo">Efectivo</label>
-                                                        </div>
                                                     </div>
                                                     <div class="mt-4 mb-0">
-                                                        <div class="d-grid"><a class="btn btn-primary btn-block" href="#">Crear Venta</a></div>
+                                                        <div class="d-grid"><a class="btn btn-primary btn-block" href="#">Crear Cliente</a></div>
                                                     </div>
                                                 </form>
                                             </div>

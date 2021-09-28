@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Tables - SB Admin</title>
-        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
-    </head>
-    <body class="sb-nav-fixed">
-        <!-- Inicio del Nav -->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Tables - SB Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <!-- Inicio del Nav -->
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
         <a class="navbar-brand ps-3" href="index.html">Panel de Control</a>
@@ -22,8 +24,7 @@
         <!-- Navbar Search-->
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
             <div class="input-group">
-                <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..."
-                    aria-describedby="btnNavbarSearch" />
+                <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
                 <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
                         class="fas fa-search"></i></button>
             </div>
@@ -31,8 +32,7 @@
         <!-- Navbar-->
         <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#!">Configuración</a></li>
                     <li><a class="dropdown-item" href="#!">Log de Actividades</a></li>
@@ -45,8 +45,8 @@
         </ul>
     </nav>
     <!-- Fin del Nav -->
-        <div id="layoutSidenav">
-              <!-- Menu Lateral -->
+    <div id="layoutSidenav">
+        <!-- Menu Lateral -->
         <div id="layoutSidenav_nav">
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
@@ -57,69 +57,58 @@
                             Tablero
                         </a>
                         <div class="sb-sidenav-menu-heading">Interfaces</div>
-                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                            data-bs-target="#collapseVentas" aria-expanded="false" aria-controls="collapseVentas">
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseVentas" aria-expanded="false" aria-controls="collapseVentas">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Ventas
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
-                        <div class="collapse" id="collapseVentas" aria-labelledby="headingOne"
-                            data-bs-parent="#sidenavAccordion">
+                        <div class="collapse" id="collapseVentas" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="crearventa.html">Ventas</a>
                                 <a class="nav-link" href="listaVentas.html">Informe</a>
                             </nav>
                         </div>
-                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                            data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Productos
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
-                        <div class="collapse" id="collapseProductos" aria-labelledby="headingOne"
-                            data-bs-parent="#sidenavAccordion">
+                        <div class="collapse" id="collapseProductos" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="#">Productos</a>
                                 <a class="nav-link" href="listaProductos.html">Informe Productos</a>
                             </nav>
                         </div>
-                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                            data-bs-target="#collapseVendedores" aria-expanded="false"
-                            aria-controls="collapseVendedores">
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseVendedores" aria-expanded="false" aria-controls="collapseVendedores">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Vendedores
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
-                        <div class="collapse" id="collapseVendedores" aria-labelledby="headingOne"
-                            data-bs-parent="#sidenavAccordion">
+                        <div class="collapse" id="collapseVendedores" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="#">Vendedores</a>
                                 <a class="nav-link" href="listaVendedores.html">Listar Vendedores</a>
                             </nav>
                         </div>
 
-                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                            data-bs-target="#collapseClientes" aria-expanded="false" aria-controls="collapseClientes">
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseClientes" aria-expanded="false" aria-controls="collapseClientes">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Clientes
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
-                        <div class="collapse" id="collapseClientes" aria-labelledby="headingOne"
-                            data-bs-parent="#sidenavAccordion">
+                        <div class="collapse" id="collapseClientes" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Clientes</a>
+                                <a class="nav-link" href="crearCliente.html">Clientes</a>
                                 <a class="nav-link" href="listaClientes.html">Listar Clientes</a>
                             </nav>
                         </div>
                         <div class="sb-sidenav-menu-heading">Complementos</div>
-                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                            data-bs-target="#collapseUsuario" aria-expanded="false" aria-controls="collapseUsuario">
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseUsuario" aria-expanded="false" aria-controls="collapseUsuario">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Usuarios
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
-                        <div class="collapse" id="collapseUsuario" aria-labelledby="headingOne"
-                            data-bs-parent="#sidenavAccordion">
+                        <div class="collapse" id="collapseUsuario" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="#">Usuarios</a>
                                 <a class="nav-link" href="listaUsuarios.html">Listar Usuarios</a>
@@ -133,189 +122,189 @@
                 </div>
             </nav>
         </div>
-         <!-- Fin de Lateral -->
-            <div id="layoutSidenav_content">
-                <main>
-                    <div class="container-fluid px-4">
-                        <h1 class="mt-4">Tables</h1>
-                        <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item"><a href="index.html">Tablero</a></li>
-                            <li class="breadcrumb-item active">Lista de Clientes</li>
-                        </ol>
-                     <!-- Tabla con clientes -->
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                Listado de Clientes
-                            </div>
-                            <div class="card-body">
-                                <table id="datatablesSimple">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Cedula</th>
-                                            <th>Nombre</th>
-                                            <th>Apellido</th>
-                                            <th>Direccion</th>
-                                            <th>Telefono</th>                                            
-                                            <th>Accion</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Cedula</th>
-                                            <th>Nombre</th>
-                                            <th>Apellido</th>
-                                            <th>Direccion</th>
-                                            <th>Telefono</th>                                            
-                                            <th>Accion</th>
-                                        </tr>
-                                    </tfoot>
-                                    <tbody>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>2011/04/25</td>
-                                            <td>Carlos Perez</td>
-                                            <td>Juan Gallo</td>
-                                            <td>$320,800</td>
-                                            <td>Efectivo</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1234567</td>
-                                            <td>78945611</td>
-                                            <td>Carlos</td>
-                                            <td>Perez</td>
-                                            <td>Calle 12 # 13-96</td>
-                                            <td>2134564</td>
-                                            <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
-                                                <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+        <!-- Fin de Lateral -->
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    <h1 class="mt-4">Tables</h1>
+                    <ol class="breadcrumb mb-4">
+                        <li class="breadcrumb-item"><a href="index.html">Tablero</a></li>
+                        <li class="breadcrumb-item active">Lista de Clientes</li>
+                    </ol>
+                    <!-- Tabla con clientes -->
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-table me-1"></i> Listado de Clientes
                         </div>
-                        <!-- Fin de tabla -->
-                    </div>
-                </main>
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid px-4">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; MisionTic 2021</div>
-                            <div>
-                                <div class="text-muted">Desarrollado por CyberApps</div>
-                            </div>
+                        <div class="card-body">
+                            <table id="datatablesSimple">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Cedula</th>
+                                        <th>Nombre</th>
+                                        <th>Apellido</th>
+                                        <th>Direccion</th>
+                                        <th>Telefono</th>
+                                        <th>Accion</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Cedula</th>
+                                        <th>Nombre</th>
+                                        <th>Apellido</th>
+                                        <th>Direccion</th>
+                                        <th>Telefono</th>
+                                        <th>Accion</th>
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>2011/04/25</td>
+                                        <td>Carlos Perez</td>
+                                        <td>Juan Gallo</td>
+                                        <td>$320,800</td>
+                                        <td>Efectivo</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>78945611</td>
+                                        <td>Carlos</td>
+                                        <td>Perez</td>
+                                        <td>Calle 12 # 13-96</td>
+                                        <td>2134564</td>
+                                        <td><a class="btn btn-xs btn-warning"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-xs btn-danger"><i class="fas fa-trash-alt"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                </footer>
-            </div>
+                    <!-- Fin de tabla -->
+                </div>
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; MisionTic 2021</div>
+                        <div>
+                            <div class="text-muted">Desarrollado por CyberApps</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
-        <script src="js/datatables-simple-demo.js"></script>
-    </body>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+    <script src="js/datatables-simple-demo.js"></script>
+</body>
+
 </html>
