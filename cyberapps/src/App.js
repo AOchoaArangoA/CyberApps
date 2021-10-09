@@ -4,6 +4,7 @@ import './assets/css/App.css';
 /* Componentes */
 import Header from './components/Header';
 import SideMenu from './components/SideMenu';
+import Tablero from './components/Tablero';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Header />
 
       <div id="layoutSidenav">
-      <SideMenu />
-      
+        <SideMenu />
+        <Tablero />
+
       </div>
     </div>
   );
