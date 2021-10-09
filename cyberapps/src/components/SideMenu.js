@@ -30,7 +30,7 @@ const SideMenu = () => {
                         </a>
                         <div className="collapse" id="collapseProductos" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav className="sb-sidenav-menu-nested nav">
-                                <a className="nav-link" href="#">Productos</a>
+                                <a className="nav-link" href="crearProducto.html">Productos</a>
                                 <a className="nav-link" href="listaProductos.html">Informe Productos</a>
                             </nav>
                         </div>
