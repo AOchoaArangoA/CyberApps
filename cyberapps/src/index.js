@@ -7,10 +7,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js'
 import $ from 'jquery';
 import Popper from 'popper.js';
+import {Auth0Provider} from '@auth0/auth0-react';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <Auth0Provider
+    domain="dev-0cvgu-3g.us.auth0.com"
+    clientId="kqr7WACfvu0RFfZtZ7h9RIT5erZiu6XA"
+    redirectUri={window.location.origin}
+  >
     <App />
+    </Auth0Provider>,
   </React.StrictMode>,
   document.getElementById('root')
 );

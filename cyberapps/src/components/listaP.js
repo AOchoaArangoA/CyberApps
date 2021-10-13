@@ -10,7 +10,6 @@ const listaP = () => {
                     <li className="breadcrumb-item"><a href="index.html">Tablero</a></li>
                     <li className="breadcrumb-item active">Lista de Productos</li>
                 </ol>
-                <!-- Tabla con productos -->
                 <div className="card mb-4">
                     <div className="card-header">
                         <i className="fas fa-table me-1"></i> Listado de Productos
@@ -49,7 +48,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -61,7 +60,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -73,7 +72,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -85,7 +84,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -97,7 +96,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -109,7 +108,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -121,7 +120,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -133,7 +132,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -145,7 +144,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -157,7 +156,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>
@@ -169,7 +168,7 @@ const listaP = () => {
                                     <td>$180.000</td>
                                     <td>ADATA</td>
                                     <td>100</td>
-                                    <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td>
+                                    {/* <td><img src="assets/img/discosdd240.jpg" height="50px" alt=""></td> */}
                                     <td><a className="btn btn-xs btn-warning"><i className="fa fa-edit"></i></a>
                                         <a className="btn btn-xs btn-danger"><i className="fas fa-trash-alt"></i></a>
                                     </td>

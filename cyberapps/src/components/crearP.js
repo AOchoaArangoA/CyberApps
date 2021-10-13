@@ -75,16 +75,15 @@ const crearP = () => {
 
                                                 <div className="my-3">
                                                     <div className="form-check">
-                                                        <input id="tCredito" name="MetodoPago" type="radio" className="form-check-input" checked required>
+                                                        {/* <Input id="tCredito" name="MetodoPago" type="radio" className="form-check-input" checked required/>  */}
                                                         <label className="form-check-label" for="tCredito">Contado</label>
                                                     </div>
                                                     <div className="form-check">
-                                                        <input id="tDebito" name="MetodoPago" type="radio" className="form-check-input" required>
+                                                        {/* <Input id="tDebito" name="MetodoPago" type="radio" className="form-check-input" required/> */}
                                                         <label className="form-check-label" for="tDebito">Factura 30 días</label>
                                                     </div>
                                                     <div className="form-check">
-                                                        <input id="efectivo" name="MetodoPago" type="radio" className="form-check-input" required>
-                                                        <label className="form-check-label" for="efectivo">Factura 60 días</label>
+                                                        {/* <Input id="efectivo" name="MetodoPago" type="radio" className="form-check-input" required/>  */}
                                                     </div>
                                                 </div>
                                                 <div className="mt-4 mb-0">
